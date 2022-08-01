@@ -4,7 +4,9 @@ const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
 myVideo.muted = true;
-var peer = new Peer();
+var peer = new Peer(undefined,{
+  port: 443
+});
 
 let myVideoStream;
 navigator.mediaDevices
