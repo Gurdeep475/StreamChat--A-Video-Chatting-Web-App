@@ -1,4 +1,6 @@
 # StreamChat--A-Video-Chatting-Web-App
+1. Real time video chatting.
+2. Real time chat.
 
 ## Deployed Link: https://streamchat1.herokuapp.com/
 
